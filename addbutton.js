@@ -5,14 +5,13 @@ Email: abhijeet.1989@gmail.com
 
 LoadAllComments = {
     runAgain : function () {
-    //Run every one second
-        window.setTimeout(LoadAllComments.clickFirstButton, 1000);
+    //Run every two seconds (API guidelines)
+        window.setTimeout(LoadAllComments.clickFirstButton, 2000);
     },
     clickFirstButton : function () {
         //All buttons have class as "button"
         var first_button = document.getElementsByClassName("button")[0];
-        if (first_button === null) {
-            alert("Sorry, no comments to expand");
+        if (first_button == null) {
             return;
         }
 
