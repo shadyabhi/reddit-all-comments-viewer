@@ -36,7 +36,7 @@ LoadAllComments = {
         newlink.id = "loadmorecomments";
         newlink.href = "javascript:void(0)";
         newlink.className = "title-button ";
-        newlink.title = 'Opens all "load more comments" link every 1 second';
+        newlink.title = 'Opens all "load more comments" links every 2 seconds';
         newlink.addEventListener('click', LoadAllComments.runAgain, false);
         pane.appendChild(newlink);
     }
