@@ -2,7 +2,7 @@
    "name": "Reddit All Comments Viewer",
    "description": "Adds a button to \"Load all comments\" in reddit.com",
 
-   "version": "3.0",
+   "version": "3.1",
    "manifest_version": 3,
 
    "content_scripts": [
