@@ -2,16 +2,17 @@
    "name": "Reddit All Comments Viewer",
    "description": "Adds a button to \"Load all comments\" in reddit.com",
 
-   "version": "2.1",
+   "version": "3.0",
    "manifest_version": 3,
 
    "content_scripts": [
       {
       "js": [ "addbutton.js" ],
-      "matches": [ "http://www.reddit.com/r/*" ]
+      "matches": [ "https://old.reddit.com/r/*" ],
+      "run_at": "document_end"
       }
    ],
-   "host_permissions":  [ "http://www.reddit.com/*" ],
+   "host_permissions":  [ "https://old.reddit.com/r/*" ],
 
    "icons": {
       "128": "reddit_love.png"

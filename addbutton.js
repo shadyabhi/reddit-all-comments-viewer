@@ -1,11 +1,6 @@
-/*
-Author: Abhijeet Rastogi (shadyabhi)
-Email: abhijeet.1989@gmail.com
-*/
-
 LoadAllComments = {
     runAgain : function () {
-    //Run every two seconds (API guidelines)
+    // Run every two seconds (API guidelines)
         window.setTimeout(LoadAllComments.clickFirstButton, 2000);
     },
     clickFirstButton : function () {
@@ -28,16 +23,18 @@ LoadAllComments = {
         }
     },
 
+    // createButton creates a new clickable link next to the comments section.
     createButton : function () {
-        //Link created and added as child to "pane"
         var pane = document.getElementsByClassName("panestack-title")[0];
         var newlink = document.createElement("a");
+
         newlink.appendChild(document.createTextNode("Load all comments"));
         newlink.id = "loadmorecomments";
         newlink.href = "javascript:void(0)";
         newlink.className = "title-button ";
         newlink.title = 'Opens all "load more comments" links every 2 seconds';
         newlink.addEventListener('click', LoadAllComments.runAgain, false);
+
         pane.appendChild(newlink);
     }
 };
