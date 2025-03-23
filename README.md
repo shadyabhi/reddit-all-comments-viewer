@@ -18,7 +18,7 @@ comments, so I can search for my comment via text easily.
 
 # Dev
 
-This extensio is also published on the Chrome Web Store: <insert-link-here>
+This extension is also published on the Chrome Web Store: <insert-link-here>
 
 ## Publishing
 
