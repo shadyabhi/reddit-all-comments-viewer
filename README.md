@@ -18,7 +18,7 @@ comments, so I can search for my comment via text easily.
 
 # Dev
 
-This extension is also published on the Chrome Web Store: <insert-link-here>
+This extension is also published on the Chrome Web Store: [Click Here](https://chromewebstore.google.com/detail/reddit-all-comments-viewe/djifpbcmaphjihhelcdeannijfelfnbh)
 
 ## Publishing
 
