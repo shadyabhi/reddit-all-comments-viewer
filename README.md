@@ -1,4 +1,4 @@
-# Reddit All Comments Viewer
+# Reddit All Comments Viewer ([Chrome Web Store](https://chromewebstore.google.com/detail/reddit-all-comments-viewe/djifpbcmaphjihhelcdeannijfelfnbh))
 
 > [!info]- This only works with https://old.reddit.com as that's the only UI I
 > use, even today!
@@ -16,11 +16,16 @@ comments, so I can search for my comment via text easily.
 
 <img width="1306" alt="image" src="https://github.com/user-attachments/assets/774cb3bc-6eea-4f29-9a2e-d3e44d2b0f66" />
 
-# Dev
+# Developer Notes
 
-This extension is also published on the Chrome Web Store: [Click Here](https://chromewebstore.google.com/detail/reddit-all-comments-viewe/djifpbcmaphjihhelcdeannijfelfnbh)
+## Development workflow
+
+- [ ] Clone this repo
+- [ ] Open this folder as "Unpacked Extension" via "Load Unpacked Extension".
 
 ## Publishing
+
+This extension is also published on the Chrome Web Store, follow the following steps:- 
 
 - [ ] Ensure that we've updated the new version in `manifest.json`
 - [ ] Run: `make zip`, which creates the new zip file. This file is what's
