@@ -14,6 +14,8 @@ browser.
 To solve this, I created this extension which can expand all those hidden
 comments, so I can search for my comment via text easily.
 
+<img width="1306" alt="image" src="https://github.com/user-attachments/assets/774cb3bc-6eea-4f29-9a2e-d3e44d2b0f66" />
+
 # Dev
 
 This extensio is also published on the Chrome Web Store: <insert-link-here>
