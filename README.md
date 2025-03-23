@@ -1,7 +1,27 @@
-# Developer Notes
+# Reddit All Comments Viewer
 
-## Uploading new version
+> [!info]- This only works with https://old.reddit.com as that's the only UI I
+> use, even today!
 
-- [ ] Ensure that we've updated the new version.
-- [ ] Run: `make zip`, which creates the new zip file.
+This extention started with a need where I wanted to search for a comment on a
+very popular Reddit post, but I had only seen that comment a few hours ago that
+day.
+To optimize server workloads, Reddit only loads popular comments "on-load" of a
+post, and rest of the lesser popular ones are hidden behind `load more comments`
+link. That means, I've no way to search for that comment via `CMD+F` shortcut in
+browser.
+
+To solve this, I created this extension which can expand all those hidden
+comments, so I can search for my comment via text easily.
+
+# Dev
+
+This extensio is also published on the Chrome Web Store: <insert-link-here>
+
+## Publishing
+
+- [ ] Ensure that we've updated the new version in `manifest.json`
+- [ ] Run: `make zip`, which creates the new zip file. This file is what's
+  uploaded on Web Store.
 - [ ] Upload on Chrome developer console.
+- [ ] Press `Publish` when you've made all the modifications.
