@@ -3,6 +3,8 @@
 > [!info]- This only works with https://old.reddit.com as that's the only UI I
 > use, even today!
 
+Chrome Web Store Link: https://chromewebstore.google.com/detail/reddit-all-comments-viewe/djifpbcmaphjihhelcdeannijfelfnbh
+
 This extention started with a need where I wanted to search for a comment on a
 very popular Reddit post, but I had only seen that comment a few hours ago that
 day.
